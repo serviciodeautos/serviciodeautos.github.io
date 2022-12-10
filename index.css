@@ -1,0 +1,138 @@
+body{
+	background-image: url(https://www.diariomotor.com/imagenes/picscache/1440x655c/herramientas-coches-p_1440x655c.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 32%;
+	//**background-color #f5e1ce;**//
+}
+hr{
+	height: 13px;
+	background-image: url(https://thumbs.dreamstime.com/b/textura-del-fondo-grabada-en-relieve-gris-blur-145413258.jpg);
+}
+div{
+
+}
+
+.div1{
+	margin: auto;
+	background-color: #ffffff;
+	width: 40%;
+	height: 70px;
+	padding: 4px;
+	border-radius: 10% 10% 10% 10%;
+	text-align: center;
+	font-size: 50px;
+	font-family: Rockwell;
+}
+.div2{
+	margin: auto;
+
+	background-image: url(https://static8.depositphotos.com/1000635/945/i/600/depositphotos_9455124-stock-photo-corrugated-cardboard-seamless-background.jpg);
+	width: 90%;
+	height: 60px;
+	padding: 4px;
+	border-radius: 10% 40% 10% 40%;
+	text-align: center;
+	font-size: 40px;
+	font-style: italic;
+	border: 2px solid #7a5c3c;
+	font-family: Rockwell;
+}
+.div21{
+	margin: auto;
+	width: 50%;
+	height: 100px;
+	padding: 4px;
+	border-radius:10%;
+	text-align: center;
+	font-size: 40px;
+	font-style: italic;
+background-color: #56b9aa;
+	font-family: Constantia;
+}
+
+.texto{
+	width: 48%;
+	border: 2px solid #7a5c3c;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	height: 350px;
+	border-radius: 9px;
+	font-size: 20px;
+	background-color: #00a08973;
+}
+.mitad2{
+	width: 48%;
+	height: 350px;
+	margin-left: 670px;
+	border: 2px solid #7a5c3c;
+	position: absolute;
+	border-radius: 10% 10% 10% 10%;
+
+}
+
+
+.movimiento{
+	width: 70%;
+	margin: auto;
+	overflow: hidden;
+}
+.movimiento ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambios 20s infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-out;
+}
+.movimiento li{
+	list-style: none;
+	width: 100%;
+}
+
+.movimiento img{
+	width: 100%;
+}
+@keyframes cambios{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{ margin-left: -100%; }
+	45%{ margin-left: -100%; }
+
+	50%{ margin-left: -200%; }
+	70%{ margin-left: -200%; }
+
+	75%{ margin-left: -300%; }
+	100%{ margin-left: -300%; }
+}
+
+nav a{
+	font-size: 30px;
+	text-decoration: none;
+	color: #b03648;
+}
+nav li{
+	list-style: none;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #fea65b;
+	width: 270px;
+	height: 30px;
+	display: inline-grid;
+	text-align: center;
+	border: 1px solid white;
+}
+
+nav li:hover{
+	border: 1px solid white;
+	color: #848382;
+	background-color: #848382;
+	display: inline-grid;
+	text-align: center;
+
+}
+
+h1{
+	margin-left: 10px;
+}

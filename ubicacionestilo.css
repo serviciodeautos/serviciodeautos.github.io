@@ -1,0 +1,86 @@
+body{
+	background-image: url(https://www.revistaneo.com/sites/default/files/2018-01/Taller.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+div{
+
+}
+.horario{
+text-align: center;
+text-decoration: blink;
+background-color: #bdbdbd;
+border-radius: 100px 0px 100px 0px;
+font-size: 50px;
+width: 900px;
+border: 2px solid #255000;
+}
+.ubicacion{
+	background-color: #b5bac9;
+	background-size: cover;
+	padding: 1em;
+	border: 2px solid #867416;
+	border-radius: 5px 5px 5px 5px;
+}
+.campamento{
+	width: 48%;
+	border: 2px solid #7a5c3c;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	
+	border-radius: 9px;
+	font-size: 20px;
+	background-color: #b5bac9;
+	background-size: cover;
+}
+.mirador{
+	width: 46%;
+	margin-left: 670px;
+	border: 2px solid #7a5c3c;
+	position: absolute;
+	border-radius: 10% 10% 10% 10%;
+	background-color: #b5bac9;
+	background-size: cover;
+	padding-left: 10px;
+	padding-right: 10px;
+
+
+}
+nav{
+
+}
+.dos{
+	list-style: none;
+	color: black;
+	border-radius: 100%;
+	background-color: #e8c39e;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+	text-decoration: none;
+}
+nav a{
+	text-decoration: none;
+	color: #000035;
+	cursor: wait;
+	font-size: 30px;
+	font-family: rockwell;
+}
+p{
+ font-size: 30px;
+
+}
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+th{
+	background-color: #d3d3d38c;
+}
+td{
+	background-color: #dcdcdc;
+}
